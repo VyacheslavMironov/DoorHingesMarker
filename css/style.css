@@ -14,6 +14,8 @@ ul li{
 }
 main{
     min-height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 header{
     background-color: rgb(64, 154, 128);
@@ -44,6 +46,49 @@ header section.navbar section.navbar__wrapper ul.navbar__menu li.navbar__item a.
 .w-60{
     width: 60%;
 }
+
+main .content{
+    width: 80%;
+}
+main .content .content__card{
+    box-shadow: 2px 2px 22px 0px rgba(34, 60, 80, 0.2);
+    width: 33.3%;
+    border-radius: 2em;
+}
+main .content .content__card .content__card-image{
+    max-width: 100%;
+}
+main .content .content__card .content__card-title,
+main .content .content__card .content__card-price{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+main .content form.content__card{
+    width: 100%;
+}
+main .content .content__card .content__card-btn{
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(64, 154, 128);
+    color: #fff;
+    border: none;
+}
+main .sidebar{
+    width: 20%;
+}
+
+
+
+
+/* Отступы */
+.mt-3{
+    margin-top: 3em;
+}
 .p-1{
     padding: 1.1em;
 }
+.p-5{
+    padding: 5em;
+}
+/* END */

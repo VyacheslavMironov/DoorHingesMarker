@@ -67,7 +67,8 @@ main .content .content__card .content__card-price{
 main .content form.content__card{
     width: 100%;
 }
-main .content .content__card .content__card-btn{
+main .content .content__card .content__card-btn,
+.basket__content-btn button{
     width: 100%;
     cursor: pointer;
     background-color: rgb(64, 154, 128);
@@ -77,8 +78,18 @@ main .content .content__card .content__card-btn{
 main .sidebar{
     width: 20%;
 }
-
-
+section.basket{
+    background-color: white;
+    display: none;
+    position: fixed;
+    left: 50%;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+}
+section.basket .basket__content{
+    padding: 3em;
+}
 
 
 /* Отступы */
